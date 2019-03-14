@@ -1,0 +1,32 @@
+{
+  "name": "jaybird-api-server",
+  "version": "0.1.0",
+  "description": "Express server for Jaybird REACT frontend",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.3-alpha.1",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7",
+    "prettier": "^1.16.4"
+  },
+  "engines": {
+    "node": "10.14.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development ./node_modules/.bin/nodemon --inspect -r dotenv/config server.js"
+  },
+  "author": "John Ravan",
+  "license": "Private"
+}

@@ -4,8 +4,11 @@
   "description": "REACT App for Phaxio fax service",
   "private": true,
   "dependencies": {
+    "filepond": "^4.2.0",
+    "filepond-plugin-image-preview": "^4.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-filepond": "^7.0.1",
     "react-scripts": "2.1.8"
   },
   "engines": {
